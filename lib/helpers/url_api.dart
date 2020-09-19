@@ -13,7 +13,6 @@ class URLApi{
       "idUsuario": idUsuario,
       "original": original
     });
-    print('body: $_body');
 
     var res = await http.post(
         url, headers: {
@@ -22,9 +21,6 @@ class URLApi{
         'Authorization': 'Bearer $token',
       }, body: _body
     );
-
-    print('status');
-    print(res.body);
 
     var status = 0;
     if(res.statusCode == 201){

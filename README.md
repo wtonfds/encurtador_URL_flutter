@@ -1,6 +1,6 @@
-# desafio_logique
+# Encurtador de URL
 
-App Encurtador de URL's desenvolvido para a avaliação de pessoa desenvolvedora da empresa Logique.
+App Encurtador de URL's, encurtando url`s muito grandes deixando-as mas faceis de lembrar.
 
 ## Getting Started
 
